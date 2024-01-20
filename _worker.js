@@ -1,7 +1,7 @@
 // @armanibash
 import { connect } from 'cloudflare:sockets';
 
-let userID = '69e54e3c-18b3-4020-9287-8863cda28824';
+let userID = 'eac04389-9f54-4db5-beda-fa0783e34d91';
 
 const proxyIPs = ["[2001:67c:2b0:db32:0:1:681a:404]"]; // ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
